@@ -84,10 +84,25 @@ import numpy as np
 # print(my_array.ndim)
 
 
-array = np.array([[1,2,3,4],
-                  [5,6,7,8],
-                  [9,10,11,12],
-                  [13,14,15,16]])
-print(array[:,1:])
-print(array[:,::2])
-print(array[0:2,0:2])
+# array = np.array([[1,2,3,4],
+#                   [5,6,7,8],
+#                   [9,10,11,12],
+#                   [13,14,15,16]])
+# print(array[:,1:])
+# print(array[:,::2])
+# print(array[0:2,0:2])
+# print(array[2:,0:2])
+
+
+# array = np.array([1,2,3])
+
+# area = np.pi * array **2
+# print(area)
+
+#broadcasting
+
+array1 = np.array([[1,2,3,4,5,6,7,8,9,10]])
+array2 = np.array([[[1],[2],[3],[4],[5],[6],[7],[8],[9],[10]]])
+print(array1.shape)
+print(array2.shape)
+print(array1*array2)
