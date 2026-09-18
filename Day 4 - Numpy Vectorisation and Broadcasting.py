@@ -113,8 +113,8 @@ rate = np.array([[0.10], [0.15], [0.20]])
 print(sales.shape)
 print(rate.shape)
 
-broadcasting
-(2,2) and (2,) - yes
-(2,3) and (3,)  - no
-(2,3) and (1,3) - yes
-(2,) - means 2 elements eg - [1,4]
+# broadcasting
+# (2,2) and (2,) - yes
+# (2,3) and (3,)  - no
+# (2,3) and (1,3) - yes
+# (2,) - means 2 elements eg - [1,4]
